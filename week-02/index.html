@@ -8,15 +8,15 @@
 </head>
 <body>
 <aside> 
+    <input type="search">
     <img src="../Img/Combined Shape.png" alt="home">
     <p> home </p>
     <img src="../Img/Icon.png" alt="sign up" >
     <p> sign up </p>
     <img src="../Img/Icon material-people.png" alt="sign in" >
     <p> sign in </p>
-    <img src="../Img/Mask group.png" alt="contact">
-    <p> contact </p>
     <img src="../Img/Vector.png" alt="contact">
+    <p> contact </p>
     <p><strong> Information </strong>  <p>
     <img src="../Img/Icon.png" alt="email">
     <p>information@untitled.tld</p>
@@ -44,6 +44,35 @@
     <p> Managment and membership</p>
     <img src="../Img/image 4.png" alt= "Contact form and suggestions">
     <p> Contact form and suggestions</p>
+
+    <h4>Mega Rocket SA </h4>
+    <h5> Registration and / or claim </h5>
+<!-- Forms --> 
+<form action "process.php" method="POST">
+    <label>Name</label>
+    <input type="text" name="Name">
+
+    <label>Last name</label>
+    <input type="text" name="LastName">
+
+    <label>Email</label>
+    <input type="text" name="Email">
+
+    <input type="checkbox">
+    <label> I want to know membership and costs </label>
+    <input type="checkbox">
+    <label> I want to make a question or suggestion </label>
+    <input type="checkbox">
+    <label> I want to make a claim </label>
+
+    <label> Comments </label>
+    <textarea name="Comments" id="" cols="30" rows="10"></textarea>
+ 
+    <input type="Send" value="send">
+    <input type="Cancel" value="Cancel">
+
+    
+</form>
 
 </body>
 
