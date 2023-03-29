@@ -48,15 +48,12 @@ Information
 - Lastname
 - E-mail
 
-```
 - I want to know membership and costs
 - I want to make questions and suggestions
 - I want to make a claim
 
-```
 - Comments
 
-```
 - Send 
 - Cancel
 
