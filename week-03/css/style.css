@@ -1,0 +1,125 @@
+#mega {
+    top: 0;
+    left: 0;
+    position: fixed;
+    font: inherit;
+    background-color:#373867;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    height: 117.92px;
+    font-size: 40px;
+     }
+aside { 
+     top: 117.92px;   
+     position: fixed;
+     width: 335px;
+     height: 100%;
+     color: #2A2A32;
+     background-color: #F6F6F6;
+     left: 335px;
+     }
+#list { display: inline-block; 
+            width: 80%; }
+#search{
+    top:16px;
+    width: 255px;
+    height: 36px;
+    left:40px;
+    text-align: center;
+}
+main { }
+
+h1{  color: #373867;
+     width: 712px;
+     height: 239.42px;
+     top:597.65px;
+     left: 533px;
+     text-align: center;
+     }
+
+ h2 { color: #373867;
+    width: 687px;
+     height: 245px;
+     top: 105px;
+     left: 248px;
+     text-align: center;
+}
+h3{ color: #373867;
+    width: 481px;
+    height: 47px;
+    top: 1826px;
+    left: 1826px;
+    text-align: center;
+}
+
+. my-form { 
+    padding: 0px;
+}
+
+. my-form . form-group{
+    padding-bottom: 0px;
+}
+
+. my-form label {
+    display:block
+}
+
+. my-form input {
+    padding: 0px
+    width: 100%
+}
+
+h4{ color: #373867; 
+    width: 178px;
+    height: 47px;
+    top: 2962px;
+    left: 800px;
+    text-align: center;
+}
+
+h3{ color: #373867;
+    width: 178px;
+    height: 47px;
+    top:3780px;
+    left:  823px;
+    text-align: center;
+}
+
+
+h5{ color: #373867;
+    width: 251px;
+    height: 23px;
+    top:4774px;
+    left:  795px;
+    text-align: center;
+}
+
+h6{ color: #373867;
+    width: 284px;
+    height: 34px;
+    top:5077px;
+    left:  776px;
+    text-align: center;
+}
+
+h6{ color: #373867;
+    width: 346px;
+    height: 31px;
+    top:5336px;
+    left:  752px;
+    text-align: center;
+}
+
+
+
+
+
+
+#footer { width: 712px;
+
+}
+
+
+
+
