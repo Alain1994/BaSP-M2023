@@ -67,48 +67,47 @@ aside{
     margin-bottom: 20px;
     font-weight: 700;
  }
-
-main {margin-left:335px;
-      margin-top:117.92px ;
+main {margin-left: 400px;
+      margin-top: 100px;
 }
 h1{  color: #373867;
-     width: 712px;
-     height: 239.42px;
-     top:597.65px;
-     left: 533px;
-     text-align: center;
+     width: 570px;
+     text-align:center;
+     font-weight: 900;
+     font-size: 40px;
      }
-
- h2 { color: #373867;
-    width: 687px;
-     height: 245px;
-     top: 105px;
-     left: 248px;
-     text-align: center;
+ h2 { color:#423C3C;
+    width: 712px;
+    text-align: center;
+    font-size: 20px;
 }
-h3{ color: #373867;
+.text {color: #776262;
+    width: 700px;
+    text-align:center;
+    font-weight:100;
+    font-size: 15px;
+}
+#division {
+    width: 40px;
+    height: 30px;
+    color:#BEBEBE;
+    text-align: center;
+ }
+#align { display: inline-block; 
+    width: 50%;
+    top: 0px; 
+    left: 67px;
+    height: 49px;
+    text-align : center;
+    margin-left :26px;
+    vertical-align: middle; }
+    
+    h3{ color: #373867;
     width: 481px;
     height: 47px;
     top: 1826px;
     left: 1826px;
     text-align: center;
-}
-
-. my-form { 
-    padding: 0px;
-}
-
-. my-form . form-group{
-    padding-bottom: 0px;
-}
-
-. my-form label {
-    display:block
-}
-
-. my-form input {
-    padding: 0px
-    width: 100%
 }
 
 h4{ color: #373867; 
