@@ -9,38 +9,43 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header id="mega"> 
+        <header id="mega-rocket"> 
             <p> Mega Rocket SA <p>
         </header> 
         <aside>  
-        <ul>
-            <li><input type="search"></li>
+        <ul class="list-aside">
+            <li><input type="search" value="search" id="search"></li>
             <li>
                 <img src="../assets/img/home.png" alt="home">
-                <p> home </p>
+                <p class="aside-buttons"> home </p>
             </li>
             <li>
                 <img src="../assets/img/plus.png" alt="sign up" >
-            <p> sign up </p>
+            <p class="aside-buttons"> sign up </p>
             </li>
             <li>
             <img src="../assets/img/people.png" alt="sign in" >
-            <p> sign in </p>
+            <p class="aside-buttons"> sign in </p>
             </li>
             <li>
-            <img src="../assets/img/vector.png" alt="contact">
-            <p> contact </p>
+            <img src="../assets/img/inbox.png" alt="contact">
+            <p class="aside-buttons"> contact </p>
             </li>
         </ul>
-        <div class="boxes">
-            <p><strong> Information </strong>  <p>
+            <p id="info"><strong> Information </strong><p>
+            <ul class="list-aside">
+            <li>
             <img src="../assets/img/message.png" alt="email">
-            <p>information@untitled.tld</p>
+            <p class="aside-info">information@untitled.tld</p>
+            </li>
+            <li> 
             <img src="../assets/img/phone.png" alt="phone">
-            <p>(000) 000-0000</p>
+            <p class="aside-info">(000) 000-0000</p>
+            </li> 
+            <li> 
             <img src="../assets/img/home.png" alt="address">
-            <p>1234 Somewhere Road #8254Nashville, TN 00000-0000</p>
-        </div>
+            <p class="aside-info">1234 Somewhere Road #8254Nashville, TN 00000-0000</p>
+            </li>
         </aside> 
         <main> 
             <h1> Hi, and welcome to 
@@ -85,10 +90,14 @@
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
                 an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <h3> Activities </h3>
-            <img src="../assets/img/crossfit.png" alt="Crossfit">
-            <p> Crossfit </p>
-            <img src="../assets/img/functional.png" alt="Functional">
+            <div><img src="../assets/img/crossfit.png" alt="Crossfit">
+            <p> 
+             Crossfit 
+            </p>
+        </div>
+        <div><img src="../assets/img/functional.png" alt="Functional">
             <p> Functional </p>
+        </div>
             <img src="../assets/img/boxing.png" alt="Boxing">
             <p> Boxing </p>
             <img src="../assets/img/spinning.png" alt="Spinning">

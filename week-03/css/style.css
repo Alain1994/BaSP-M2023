@@ -1,4 +1,4 @@
-#mega {
+#mega-rocket {
     top: 0;
     left: 0;
     position: fixed;
@@ -7,39 +7,67 @@
     color: #FFFFFF;
     text-align: center;
     width: 100%;
-    height: 117.92px;
+    height: 75px;
     font-size: 40px;
      }
-aside { 
-     top: 117.92px;   
+aside{ 
+     top: 75px;   
      position: fixed;
      width: 335px;
      height: 100%;
      color: #2A2A32;
      background-color: #F6F6F6;
      left: 0px;
-     display: block;
      }
-ul{ list-style-type: none;
+#search{    
+    top: 16px;
+    left: 40px;
+    border: n4px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background-color:#FFFFFF;
+    color: #FFFFFF;
+    text-align: left;
+    width: 255px;
+    height: 36px;
+}
+.list-aside li{ list-style-type: none;
     display: inline-block; 
     width: 50%;
     top: 0px; 
-    left: 67px
-    height: 49px
-    text-align : right;
+    left: 67px;
+    height: 49px;
+    text-align : center;
+    margin-left :26px;
+    vertical-align: middle;
     }
-li{ background-color:#AACE9B
-    width: 50%
-    border:#AACE9B 10px solid;
-    margin-left :26px
-    text-align:right
-    }
-.boxes{ 
-    display:block
-    width: 195px
-    height: 48px
-    text-align:right;
+.list-aside li .aside-buttons{
+    display: inline-block; 
+    background-color:#AACE9B;   
+    color: #2A2A32;
+    width: 100px;
+    text-align : center;
+
+   }
+.list-aside li .aside-info{ 
+    display: inline-block; 
+    width: 50%;
+    height: 49px;
+    text-align : center;
+    margin-left :26px;
+    vertical-align: middle;
 }
+#info{
+    text-align : center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+ }
+
 main {margin-left:335px;
       margin-top:117.92px ;
 }
