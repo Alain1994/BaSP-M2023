@@ -17,19 +17,32 @@ aside {
      height: 100%;
      color: #2A2A32;
      background-color: #F6F6F6;
-     left: 335px;
+     left: 0px;
+     display: block;
      }
-#list { display: inline-block; 
-            width: 80%; }
-#search{
-    top:16px;
-    width: 255px;
-    height: 36px;
-    left:40px;
-    text-align: center;
+ul{ list-style-type: none;
+    display: inline-block; 
+    width: 50%;
+    top: 0px; 
+    left: 67px
+    height: 49px
+    text-align : right;
+    }
+li{ background-color:#AACE9B
+    width: 50%
+    border:#AACE9B 10px solid;
+    margin-left :26px
+    text-align:right
+    }
+.boxes{ 
+    display:block
+    width: 195px
+    height: 48px
+    text-align:right;
 }
-main { }
-
+main {margin-left:335px;
+      margin-top:117.92px ;
+}
 h1{  color: #373867;
      width: 712px;
      height: 239.42px;
@@ -111,14 +124,8 @@ h6{ color: #373867;
     text-align: center;
 }
 
-
-
-
-
-
-#footer { width: 712px;
-
-}
+#footer { margin-left:335px
+    }
 
 
 
