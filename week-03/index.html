@@ -82,44 +82,27 @@
             <p > Contact form and suggestions</p>
             <p> Aenean ornare velit lacus, ac varius enim ullamcorper eu. 
                 Proin aliquam facilisis ante interdum congue.</p>
+            </div>
             <div class="division"></div>
             <h3> Registration and / or claim </h3>
-            <div class="container">
         <!-- Forms --> 
         <form action="process.php" method="POST">
-            <label>Name</label>
-            <input type="text" name="Name">
-            <div class="container">
-            <label>Last name</label>
-            <input type="text" name="LastName">
-            <label>Email</label>
-            <div class="container">
-            <input type="text" name="Email">
-            <div class="container">
-            <input id="memberships" type="radio" name="option">
-            <label for="memberships">
-            <label>
-                 I want to know membership and costs 
-            </label>
-        </div>
-        <div>
-            <input id="question-suggestion" type="radio" name="option">
-            <label for="question-suggestion"> 
-                I want to make a question or suggestion 
-            </label>
-        </div>
-        <div>
-            <input id="claim" type="radio" name="option">
-            <label for="claim"> 
-                I want to make a claim 
-            </label>
-        </div>
-        <div>
-            <label> Comments </label>
-        </div> 
-        
-<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
-            <input type="submit" value="Send">
+            <div><label>Name</label></div>
+            <div><input type="text" name="Name"></div>
+            <div><label>Last name</label></div>
+            <div><input type="text" name="LastName"></div>
+            <div><label>Email</label></div>
+            <div><input type="text" name="Email"></div>
+            <div><input id="memberships" type="radio" name="option">
+            <label>I want to know membership and costs 
+            </label></div>
+            <div><input id="question-suggestion" type="radio" name="option">
+            <label for="question-suggestion"> </label>I want to make a question or suggestion</div>
+            <div><input id="claim" type="radio" name="option">
+            <label for="claim"> I want to make a claim </label></div>
+            <div><label> Comments </label></div> 
+            <div><textarea id="comments" name="comments" rows="4" cols="50"></textarea></div>
+            <div><input type="submit" value="Send"></div>
         </form>
             <div class="division"></div>
             <h3> About us </h3>
@@ -128,42 +111,54 @@
                 an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <div class="division"></div>
             <h3> Activities </h3>
+            <div class="align">
             <img src="../assets/img/crossfit.png" alt="Crossfit">
-            <p> 
-             Crossfit 
-            </p>
+            <p> Crossfit </p>
+            </div> 
+            <div class="align">
             <img src="../assets/img/functional.png" alt="Functional">
             <p> Functional </p>
+            </div> 
+            <div class="align">
             <img src="../assets/img/boxing.png" alt="Boxing">
             <p> Boxing </p>
+            </div> 
+            <div class="align">
             <img src="../assets/img/spinning.png" alt="Spinning">
             <p> Spinning </p>
+            </div> 
+            <div class="align">
             <img src="../assets/img/fitness.png" alt="Fitness">
             <p> Fitness </p>
+            </div> 
             <div class="division"></div>
-            <h4> Membership black </h4>
+            <div class="memberships-">
+            <h4 id="black"> Membership black </h4>
             <p> Free access to bodybuilding </p>
             <p> Free access to classes prior registration </p>
             <p> Follow - up analyzed by coach </p>
             <p> Grid display </p>
-            <h4> Membership classic </h4>
+            <h4 id="classic"> Membership classic </h4>
             <p> Free access to weight room </p>
             <p> Personalized monitoring by coach </p>
             <p> Grid display</p>
-            <h4> Membership only classes  </h4>
+            <h4 id="only"> Membership only classes  </h4>
             <p> Personalized monitoring by coach </p>
             <p> Grid display</p> 
+            </div>
         </main>
-            <footer id="footer">  
+            <footer id="footer"> 
             <a href="https://google.com/"> <img src="../assets/img/snapchat.png" alt="snapchat"></a>
             <a href="https://google.com/"> <img src="../assets/img/whatsapp.png" alt="whatsApp"></a>
             <a href="https://google.com/"> <img src="../assets/img/facebook.png" alt="facebook"></a>
             <a href="https://google.com/"> <img src="../assets/img/instagram.png" alt="instagram"></a>
             <a href="https://google.com/"> <img src="../assets/img/telegram.png" alt="telegram"></a>
             <a href="https://google.com/"> <img src="../assets/img//linkedin.png" alt="linkedin"></a>
+            <div class="Rosario">
             <p> Rosario, Argentina </p>
             <p> Copyright © 2022 Radium Rocket. All rights reserved. </p>
-            <a href="https://google.com/"> <img src="../assets/img/logo.png" alt="radium Rocket logo"></a>
+            </div>
+            <a id="logo-rocket" href="https://google.com/"> <img src="../assets/img/logo.png" alt="radium Rocket logo"></a>
         </footer> 
     </body>
 </html>
