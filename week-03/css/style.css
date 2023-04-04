@@ -22,7 +22,7 @@ aside{
 #search{    
     top: 16px;
     left: 40px;
-    border: n4px;
+    border-radius: 4px;
     position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
@@ -38,8 +38,6 @@ aside{
 .list-aside li{ list-style-type: none;
     display: inline-block; 
     width: 50%;
-    top: 0px; 
-    left: 67px;
     height: 49px;
     text-align : center;
     margin-left :26px;
@@ -49,9 +47,10 @@ aside{
     display: inline-block; 
     background-color:#AACE9B;   
     color: #2A2A32;
-    width: 100px;
+    padding: 15px 30px;
+    border: none;
     text-align : center;
-
+    vertical-align: middle;
    }
 .list-aside li .aside-info{ 
     display: inline-block; 
@@ -104,30 +103,23 @@ h2 { color:#423C3C;
 h3{ color: #373867; 
     width: 178px;
     height: 47px;
-    top: 2962px;
-    left: 800px;
     text-align: center;
 }
-.container{
-    
- }
-
 #Lorem{ color: #2A2A32;
-        width: 711px;
         text-align:center;
         font-weight:400;
         font-size: 20px;
         margin :auto;
-} h4{ color: #373867; 
+} 
+h4{ color: #373867; 
     width: 178px;
     height: 47px;
-    top: 2962px;
-    left: 800px;
     text-align: center;
 }
-
-#footer { margin-left:335px
-    }
+#footer { margin-left:335px;
+        width: 335px;
+        color: #2A2A32;
+}
 
 
 
