@@ -62,7 +62,6 @@
             <div class="order">
             <img  src="../assets/img/appointment.png" alt="Appointment booking">
             <p> Appointment booking </p>
-            
             <p> Aenean ornare velit lacus, ac varius enim ullamcorper eu. 
                 Proin aliquam facilisis ante interdum congue.</p>
             </div>
@@ -83,30 +82,48 @@
             <p > Contact form and suggestions</p>
             <p> Aenean ornare velit lacus, ac varius enim ullamcorper eu. 
                 Proin aliquam facilisis ante interdum congue.</p>
-            </div>
             <div class="division"></div>
             <h3> Registration and / or claim </h3>
+            <div class="container">
         <!-- Forms --> 
         <form action="process.php" method="POST">
             <label>Name</label>
             <input type="text" name="Name">
+            <div class="container">
             <label>Last name</label>
             <input type="text" name="LastName">
             <label>Email</label>
+            <div class="container">
             <input type="text" name="Email">
-            <input type="checkbox">
-            <label> I want to know membership and costs </label>
-            <input type="checkbox">
-            <label> I want to make a question or suggestion </label>
-            <input type="checkbox">
-            <label> I want to make a claim </label>
+            <div class="container">
+            <input id="memberships" type="radio" name="option">
+            <label for="memberships">
+            <label>
+                 I want to know membership and costs 
+            </label>
+        </div>
+        <div>
+            <input id="question-suggestion" type="radio" name="option">
+            <label for="question-suggestion"> 
+                I want to make a question or suggestion 
+            </label>
+        </div>
+        <div>
+            <input id="claim" type="radio" name="option">
+            <label for="claim"> 
+                I want to make a claim 
+            </label>
+        </div>
+        <div>
             <label> Comments </label>
-            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </div> 
+        
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
             <input type="submit" value="Send">
         </form>
             <div class="division"></div>
             <h3> About us </h3>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            <p id="Lorem"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
                 an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <div class="division"></div>
