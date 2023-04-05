@@ -37,12 +37,19 @@ Information
 3. Funcionalities of the app
 
 - Appointment booking
+ 
   Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.
+
 - Calender and opening hours
+  
   Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.
+
 - Managment and membership
+  
   Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.
+
 - Contact form and suggestions
+  
   Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.
 
 *** 
